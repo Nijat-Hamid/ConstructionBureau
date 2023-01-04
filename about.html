@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aviable Positions | CreateX | Construction Bureau</title>
+    <!-- Favicons -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./icons/favicon-16x16.png"
+    />
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="./plugins/boostrap/bootstrap.min.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <div class="about-modal">
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Subscribe to our newsletter
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label"
+                    >Name*:</label
+                  >
+                  <input
+                    type="text"
+                    placeholder="Your name"
+                    class="form-control"
+                    id="recipient-name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-email" class="col-form-label"
+                    >Email*:</label
+                  >
+                  <input
+                    type="email"
+                    placeholder="Your Email"
+                    class="form-control"
+                    id="recipient-email"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-solid btn-regular">
+                Send
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header Start -->
+    <header class="header portfolio-header about-header">
+      <div class="custom-container">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./images/logo.png" alt="CreateX - Construction Bureau" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Menu
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-dark"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./portfolio.html">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./blog.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contacts</a>
+                </li>
+              </ul>
+              <div class="right-header">
+                <div class="rh-call">
+                  <div class="rh-element-img">
+                    <img src="./icons/phone.svg" alt="Call Us" />
+                  </div>
+                  <div class="rh-element-txt">
+                    <p>Call us</p>
+                    <a href="tel:+(405)-555-0128">(405) 555-0128</a>
+                  </div>
+                </div>
+                <div class="rh-chat">
+                  <div class="rh-element-img">
+                    <img src="./icons/mail.svg" alt="Talk to us" />
+                  </div>
+                  <div class="rh-element-txt">
+                    <p>Talk to us</p>
+                    <a href="mailto:hello@createx.com">hello@createx.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="portfolio-heading">
+          <ul class="breadcrumbs">
+            <li><a href="./index.html">Homepage</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li>Available Positions</li>
+          </ul>
+          <h1 class="portfolio-slider-title">AVAILABLE POSITIONS</h1>
+          <p class="portfolio-slider-text">
+            Build your career with Createx Construction Bureau.
+          </p>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+    <!-- Main Sections Start -->
+    <main class="main">
+      <section class="apply-work">
+        <div class="custom-container">
+          <div class="apply-work-container d-flex align-items-start">
+            <div class="apply-work-wrapper">
+              <div class="apply-work-box">
+                <div class="apply-work-single-item">
+                  <div class="apply-work-left">
+                    <div class="apply-work-detail d-flex align-items-center">
+                      <div
+                        class="apply-work-location d-flex align-items-center"
+                      >
+                        <img src="./icons/outline.svg" alt="" />
+                        <small>New York</small>
+                      </div>
+                      <div class="apple-work-time d-flex align-items-center">
+                        <img src="./icons/clock.svg" alt="" />
+                        <small>Full Time</small>
+                      </div>
+                    </div>
+                    <h4 class="apply-work-position">
+                      Heavy Equipment Operator
+                    </h4>
+                  </div>
+                  <div class="apply-work-right">
+                    <a class="btn btn-outline btn-regular" href="">Apply Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="apply-work-box">
+                <div class="apply-work-single-item">
+                  <div class="apply-work-left">
+                    <div class="apply-work-detail d-flex align-items-center">
+                      <div
+                        class="apply-work-location d-flex align-items-center"
+                      >
+                        <img src="./icons/outline.svg" alt="" />
+                        <small>New Jersey</small>
+                      </div>
+                      <div class="apple-work-time d-flex align-items-center">
+                        <img src="./icons/clock.svg" alt="" />
+                        <small>Full Time</small>
+                      </div>
+                    </div>
+                    <h4 class="apply-work-position">
+                      Financial Compliance Analyst
+                    </h4>
+                  </div>
+                  <div class="apply-work-right">
+                    <a class="btn btn-outline btn-regular" href="">Apply Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="apply-work-box">
+                <div class="apply-work-single-item">
+                  <div class="apply-work-left">
+                    <div class="apply-work-detail d-flex align-items-center">
+                      <div
+                        class="apply-work-location d-flex align-items-center"
+                      >
+                        <img src="./icons/outline.svg" alt="" />
+                        <small>San Francisco</small>
+                      </div>
+                      <div class="apple-work-time d-flex align-items-center">
+                        <img src="./icons/clock.svg" alt="" />
+                        <small>Full Time</small>
+                      </div>
+                    </div>
+                    <h4 class="apply-work-position">
+                      Project Manager - Buildings
+                    </h4>
+                  </div>
+                  <div class="apply-work-right">
+                    <a <a class="btn btn-outline btn-regular" href=""
+                      >Apply Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="apply-work-box">
+                <div class="apply-work-single-item">
+                  <div class="apply-work-left">
+                    <div class="apply-work-detail d-flex align-items-center">
+                      <div
+                        class="apply-work-location d-flex align-items-center"
+                      >
+                        <img src="./icons/outline.svg" alt="" />
+                        <small>New York</small>
+                      </div>
+                      <div class="apple-work-time d-flex align-items-center">
+                        <img src="./icons/clock.svg" alt="" />
+                        <small>Part Time</small>
+                      </div>
+                    </div>
+                    <h4 class="apply-work-position">Environment Specialist</h4>
+                  </div>
+                  <div class="apply-work-right">
+                    <a class="btn btn-outline btn-regular" href="">Apply Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="apply-work-box">
+                <div class="apply-work-single-item">
+                  <div class="apply-work-left">
+                    <div class="apply-work-detail d-flex align-items-center">
+                      <div
+                        class="apply-work-location d-flex align-items-center"
+                      >
+                        <img src="./icons/outline.svg" alt="" />
+                        <small>New York</small>
+                      </div>
+                      <div class="apple-work-time d-flex align-items-center">
+                        <img src="./icons/clock.svg" alt="" />
+                        <small>Full Time</small>
+                      </div>
+                    </div>
+                    <h4 class="apply-work-position">Accountant</h4>
+                  </div>
+                  <div class="apply-work-right">
+                    <a class="btn btn-outline btn-regular" href="">Apply Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="apply-work-request">
+              <h3 class="apply-work-title mb-4">
+                Didn’t find what you were looking for?
+              </h3>
+              <p class="apply-work-subtitle mb-5">
+                Send your CV or subscribe to our newsletter to receive
+                information about new vacancies.
+              </p>
+              <div class="apply-work-buttons d-flex align-items-center">
+                <button
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  data-bs-whatever="@mdo"
+                  class="btn btn-outline btn-regular me-4"
+                >
+                  Subscribe
+                </button>
+                <button class="btn btn-regular btn-solid ms-2">Send CV</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Values Start -->
+      <section class="values benefits">
+        <div class="custom-container">
+          <div class="values-wrapper">
+            <h2 class="section-title">Employee benefits</h2>
+            <p class="section-description">There’s always room for talent.</p>
+            <div class="core-values">
+              <div class="core-values-items">
+                <div class="core-values-single">
+                  <div class="core-values-icon">
+                    <img src="./icons/ic-brain.svg" alt="Quality" />
+                  </div>
+                  <h3 class="core-values-title">Training</h3>
+                  <p class="core-values-description">
+                    Culpa nostrud commodo ea consequat aliquip reprehenderit.
+                    Veniam velit nostrud aliquip sunt.
+                  </p>
+                </div>
+              </div>
+              <div class="core-values-items">
+                <div class="core-values-single">
+                  <div class="core-values-icon">
+                    <img src="./icons/ic-success.svg" alt="Quality" />
+                  </div>
+                  <h3 class="core-values-title">Professional Growth</h3>
+                  <p class="core-values-description">
+                    Anim reprehenderit sint voluptate exercitation adipisicing
+                    laborum adipisicing. Minim empor est ea.
+                  </p>
+                </div>
+              </div>
+              <div class="core-values-items">
+                <div class="core-values-single">
+                  <div class="core-values-icon">
+                    <img src="./icons/ic-budget.svg" alt="Quality" />
+                  </div>
+                  <h3 class="core-values-title">Growing Salary</h3>
+                  <p class="core-values-description">
+                    Sit veniam aute dolore adipisicing nulla sit culpa. Minim
+                    mollit voluptate ullamco proident ea ad.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Valuend End -->
+      <!-- Discuss Start -->
+      <section class="discuss">
+        <div class="custom-container">
+          <div class="form-container">
+            <div class="form-wrapper">
+              <h3 class="form-title">A quick way to discuss details</h3>
+              <form class="request-form" action="#">
+                <label for="name-input">Name*</label>
+                <input
+                  id="name-input"
+                  required
+                  type="text"
+                  placeholder="Your Name"
+                />
+                <label for="phone-input">Phone*</label>
+                <input
+                  id="phone-input"
+                  required
+                  type="tel"
+                  name=""
+                  id=""
+                  placeholder="Your Phone Number"
+                />
+                <label for="email-input">Email</label>
+                <input
+                  id="email-input"
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Your working email"
+                />
+                <label for="message-input">Message*</label>
+                <textarea
+                  id="message-input"
+                  placeholder="Your Message"
+                  required
+                  name=""
+                  id=""
+                ></textarea>
+                <div class="checkbox-rule">
+                  <label class="checkbox red">
+                    <input checked type="checkbox" />
+                    <span class="indicator"></span>
+                    I agree to receive communications from Createx Construction
+                    Bureau.
+                  </label>
+                </div>
+                <button class="btn-solid btn btn-regular" type="submit">
+                  SEND Request
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Discuss End -->
+    </main>
+    <!-- Main Sections End -->
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="custom-container">
+        <div class="top-footer">
+          <div class="top-footer-left">
+            <div class="top-footer-left-visual">
+              <div class="logo">
+                <a href="./index.html">
+                  <img src="./images/logo1.png" alt="" />
+                </a>
+              </div>
+              <div class="social-media-icons">
+                <ul class="social-media-icons-list">
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="./icons/whatsapp.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="./icons/messenger.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="./icons/facebook.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="./icons/twitter.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="./icons/youtube.svg" alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="top-footer-left-txt">
+              <p>
+                Createx Construction Bureau has been successfully operating
+                in the USA construction market since 2000. We are proud to offer
+                you quality construction and exemplary service. Our mission is
+                to set the highest standards for construction sphere.
+              </p>
+            </div>
+          </div>
+          <div class="top-footer-right">
+            <div class="subscribe-form">
+              <form class="form-element" action="#">
+                <label for="subscribe-me">Let's stay in touch</label>
+                <input
+                  type="email"
+                  name=""
+                  id="subscribe-me"
+                  placeholder="Your email adress"
+                />
+                <button class="btn btn-solid btn-regular" type="submit">
+                  Subscribe
+                </button>
+                <small
+                  >*Subscribe to our newsletter to receive communications and
+                  early updates from Createx Construction Bureau.</small
+                >
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="middle-footer">
+          <div class="middle-footer-item">
+            <p class="middle-footer-item-title">Head Office</p>
+            <ul class="middle-footer-item-list">
+              <li>
+                <span>Adress:</span>
+                <address>8502 Preston Rd. Inglewood, New York</address>
+              </li>
+              <li>
+                <span>Call:</span>
+                <a href="tel:+(405) 555-0128">(405) 555-0128</a>
+              </li>
+              <li>
+                <span>Email:</span>
+                <a href="mailto:hello@createx.com">hello@createx.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="middle-footer-item middle-nav">
+            <div class="middle-footer-nav">
+              <p class="middle-footer-item-title">Who we are</p>
+              <ul class="middle-footer-item-list">
+                <li><a href="./about.html">About us</a></li>
+                <li><a href="./positions.html">Aviable Positions</a></li>
+                <li><a href="./contact.html">Contacts</a></li>
+              </ul>
+            </div>
+            <div class="middle-footer-nav">
+              <p class="middle-footer-item-title">Our Experience</p>
+              <ul class="middle-footer-item-list">
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./work.html">Work</a></li>
+                <li><a href="./blog.html">News</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-footer">
+          <p class="copyright">
+            &copy;All rights reserved. Made with
+            <img src="./icons/heart.svg" alt="Heart Icon" /> by Createx Studio
+          </p>
+          <div class="go-to-up">
+            <a href="#" data-target="html"
+              >GO TO TOP
+              <img src="./icons/up-btn.svg" alt="Go To Up" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- Boostrap JS -->
+    <script src="./plugins/boostrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

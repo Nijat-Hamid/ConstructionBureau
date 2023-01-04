@@ -1,0 +1,1872 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News | CreateX | Construction Bureau</title>
+    <!-- Favicons -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./icons/favicon-16x16.png"
+    />
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="./plugins/boostrap/bootstrap.min.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="header portfolio-header news-header">
+      <div class="custom-container">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./images/logo.png" alt="CreateX - Construction Bureau" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Menu
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-dark"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./portfolio.html">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./blog.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contacts</a>
+                </li>
+              </ul>
+              <div class="right-header">
+                <div class="rh-call">
+                  <div class="rh-element-img">
+                    <img src="./icons/phone.svg" alt="Call Us" />
+                  </div>
+                  <div class="rh-element-txt">
+                    <p>Call us</p>
+                    <a href="tel:+(405)-555-0128">(405) 555-0128</a>
+                  </div>
+                </div>
+                <div class="rh-chat">
+                  <div class="rh-element-img">
+                    <img src="./icons/mail.svg" alt="Talk to us" />
+                  </div>
+                  <div class="rh-element-txt">
+                    <p>Talk to us</p>
+                    <a href="mailto:hello@createx.com">hello@createx.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="portfolio-heading">
+          <ul class="breadcrumbs">
+            <li><a href="./index.html">Homepage</a></li>
+            <li>News</li>
+          </ul>
+          <h1 class="portfolio-slider-title">NEWS</h1>
+          <p class="portfolio-slider-text">
+            Stay tuned with our news, expert tips and articles.
+          </p>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+    <!-- Main Sections Start -->
+    <main class="main">
+      <!-- News Blog Section -->
+      <section class="news-blog">
+        <div class="container">
+          <div class="news-blog-wrapper">
+            <h2 class="section-title pb-3">Categories</h2>
+            <ul
+              class="nav flex-lg-wrap nav-justified nav-pills mt-4 mb-3"
+              id="pills-tab"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="pills-home-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-home"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                >
+                  All News
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  Company News
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-contact-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-contact"
+                  aria-selected="false"
+                >
+                  Innovation
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-content-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-content"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-content"
+                  aria-selected="false"
+                >
+                  Industry News
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-traffic-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-traffic"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-traffic"
+                  aria-selected="false"
+                >
+                  Expert Tips
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-marketing-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-marketing"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-marketing"
+                  aria-selected="false"
+                >
+                  Marketing
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news1.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How to Build Climate Change-Resilient
+                                Infrastructure
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news2.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How Construction Can Help Itself
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news4.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                The Difference Between a Digger and an Excavator
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news5.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                Building Construction Hand Tools
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news6.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                Top 10 Construction Trends
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news8.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How to Build Climate Change-Resilient
+                                Infrastructure
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <nav aria-label="...">
+                      <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                          <a class="page-link">
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M9.20711 6.79289C8.81658 6.40237 8.18342 6.40237 7.79289 6.79289L3.29289 11.2929C2.90237 11.6834 2.90237 12.3166 3.29289 12.7071L7.79289 17.2071C8.18342 17.5976 8.81658 17.5976 9.20711 17.2071C9.59763 16.8166 9.59763 16.1834 9.20711 15.7929L6.41421 13H20C20.5523 13 21 12.5523 21 12C21 11.4477 20.5523 11 20 11H6.41421L9.20711 8.20711C9.59763 7.81658 9.59763 7.18342 9.20711 6.79289Z"
+                                fill="#9A9CA5"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="page-item active">
+                          <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item" aria-current="page">
+                          <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z"
+                                fill="#424551"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-profile"
+                role="tabpanel"
+                aria-labelledby="pills-profile-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news1.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How to Build Climate Change-Resilient
+                                Infrastructure
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news2.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How Construction Can Help Itself
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news4.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                The Difference Between a Digger and an Excavator
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news5.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                Building Construction Hand Tools
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news6.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                Top 10 Construction Trends
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news8.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How to Build Climate Change-Resilient
+                                Infrastructure
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <nav aria-label="...">
+                      <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                          <a class="page-link">
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M9.20711 6.79289C8.81658 6.40237 8.18342 6.40237 7.79289 6.79289L3.29289 11.2929C2.90237 11.6834 2.90237 12.3166 3.29289 12.7071L7.79289 17.2071C8.18342 17.5976 8.81658 17.5976 9.20711 17.2071C9.59763 16.8166 9.59763 16.1834 9.20711 15.7929L6.41421 13H20C20.5523 13 21 12.5523 21 12C21 11.4477 20.5523 11 20 11H6.41421L9.20711 8.20711C9.59763 7.81658 9.59763 7.18342 9.20711 6.79289Z"
+                                fill="#9A9CA5"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="page-item active">
+                          <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item" aria-current="page">
+                          <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z"
+                                fill="#424551"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-contact"
+                role="tabpanel"
+                aria-labelledby="pills-contact-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news1.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How to Build Climate Change-Resilient
+                                Infrastructure
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news2.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How Construction Can Help Itself
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news4.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                The Difference Between a Digger and an Excavator
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news5.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                Building Construction Hand Tools
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news6.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                Top 10 Construction Trends
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news8.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How to Build Climate Change-Resilient
+                                Infrastructure
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <nav aria-label="...">
+                      <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                          <a class="page-link">
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M9.20711 6.79289C8.81658 6.40237 8.18342 6.40237 7.79289 6.79289L3.29289 11.2929C2.90237 11.6834 2.90237 12.3166 3.29289 12.7071L7.79289 17.2071C8.18342 17.5976 8.81658 17.5976 9.20711 17.2071C9.59763 16.8166 9.59763 16.1834 9.20711 15.7929L6.41421 13H20C20.5523 13 21 12.5523 21 12C21 11.4477 20.5523 11 20 11H6.41421L9.20711 8.20711C9.59763 7.81658 9.59763 7.18342 9.20711 6.79289Z"
+                                fill="#9A9CA5"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="page-item active">
+                          <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item" aria-current="page">
+                          <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z"
+                                fill="#424551"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-content"
+                role="tabpanel"
+                aria-labelledby="pills-content-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news1.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How to Build Climate Change-Resilient
+                                Infrastructure
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news2.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How Construction Can Help Itself
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news4.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                The Difference Between a Digger and an Excavator
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news5.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                Building Construction Hand Tools
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news6.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                Top 10 Construction Trends
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news8.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How to Build Climate Change-Resilient
+                                Infrastructure
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <nav aria-label="...">
+                      <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                          <a class="page-link">
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M9.20711 6.79289C8.81658 6.40237 8.18342 6.40237 7.79289 6.79289L3.29289 11.2929C2.90237 11.6834 2.90237 12.3166 3.29289 12.7071L7.79289 17.2071C8.18342 17.5976 8.81658 17.5976 9.20711 17.2071C9.59763 16.8166 9.59763 16.1834 9.20711 15.7929L6.41421 13H20C20.5523 13 21 12.5523 21 12C21 11.4477 20.5523 11 20 11H6.41421L9.20711 8.20711C9.59763 7.81658 9.59763 7.18342 9.20711 6.79289Z"
+                                fill="#9A9CA5"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="page-item active">
+                          <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item" aria-current="page">
+                          <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z"
+                                fill="#424551"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-traffic"
+                role="tabpanel"
+                aria-labelledby="pills-traffic-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news1.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How to Build Climate Change-Resilient
+                                Infrastructure
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news2.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How Construction Can Help Itself
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news4.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                The Difference Between a Digger and an Excavator
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news5.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                Building Construction Hand Tools
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news6.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                Top 10 Construction Trends
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news8.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How to Build Climate Change-Resilient
+                                Infrastructure
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <nav aria-label="...">
+                      <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                          <a class="page-link">
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M9.20711 6.79289C8.81658 6.40237 8.18342 6.40237 7.79289 6.79289L3.29289 11.2929C2.90237 11.6834 2.90237 12.3166 3.29289 12.7071L7.79289 17.2071C8.18342 17.5976 8.81658 17.5976 9.20711 17.2071C9.59763 16.8166 9.59763 16.1834 9.20711 15.7929L6.41421 13H20C20.5523 13 21 12.5523 21 12C21 11.4477 20.5523 11 20 11H6.41421L9.20711 8.20711C9.59763 7.81658 9.59763 7.18342 9.20711 6.79289Z"
+                                fill="#9A9CA5"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="page-item active">
+                          <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item" aria-current="page">
+                          <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z"
+                                fill="#424551"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-marketing"
+                role="tabpanel"
+                aria-labelledby="pills-marketing-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news1.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How to Build Climate Change-Resilient
+                                Infrastructure
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news2.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How Construction Can Help Itself
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news4.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                The Difference Between a Digger and an Excavator
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news5.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                Building Construction Hand Tools
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news6.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                Top 10 Construction Trends
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="blog-box">
+                      <div class="news-single-item">
+                        <div class="news-image">
+                          <img src="./images/news8.png" alt="" />
+                        </div>
+                        <div class="news-info">
+                          <div class="news-blog-title">
+                            <a href="./news.html"
+                              ><h3 class="news-title">
+                                How to Build Climate Change-Resilient
+                                Infrastructure
+                              </h3></a
+                            >
+                          </div>
+                          <small class="news-detail"
+                            >Industry News | June 24, 2022 |
+                            <img src="./icons/comments.svg" alt="" />4
+                            comments</small
+                          >
+                          <div class="news-blog-description">
+                            <p class="news-description">
+                              Maecenas donec lacinia nunc, quam sit magnis
+                              mauris. Neque bibendum et mauris, aenean. Vel arcu
+                              amet in sem parturient integer duis et nulla...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <nav aria-label="...">
+                      <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                          <a class="page-link">
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M9.20711 6.79289C8.81658 6.40237 8.18342 6.40237 7.79289 6.79289L3.29289 11.2929C2.90237 11.6834 2.90237 12.3166 3.29289 12.7071L7.79289 17.2071C8.18342 17.5976 8.81658 17.5976 9.20711 17.2071C9.59763 16.8166 9.59763 16.1834 9.20711 15.7929L6.41421 13H20C20.5523 13 21 12.5523 21 12C21 11.4477 20.5523 11 20 11H6.41421L9.20711 8.20711C9.59763 7.81658 9.59763 7.18342 9.20711 6.79289Z"
+                                fill="#9A9CA5"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="page-item active">
+                          <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item" aria-current="page">
+                          <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z"
+                                fill="#424551"
+                              />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Discuss Start -->
+      <section class="discuss">
+        <div class="custom-container">
+          <div class="form-container">
+            <div class="form-wrapper">
+              <h3 class="form-title">A quick way to discuss details</h3>
+              <form class="request-form" action="#">
+                <label for="name-input">Name*</label>
+                <input
+                  id="name-input"
+                  required
+                  type="text"
+                  placeholder="Your Name"
+                />
+                <label for="phone-input">Phone*</label>
+                <input
+                  id="phone-input"
+                  required
+                  type="tel"
+                  name=""
+                  id=""
+                  placeholder="Your Phone Number"
+                />
+                <label for="email-input">Email</label>
+                <input
+                  id="email-input"
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Your working email"
+                />
+                <label for="message-input">Message*</label>
+                <textarea
+                  id="message-input"
+                  placeholder="Your Message"
+                  required
+                  name=""
+                  id=""
+                ></textarea>
+                <div class="checkbox-rule">
+                  <label class="checkbox red">
+                    <input checked type="checkbox" />
+                    <span class="indicator"></span>
+                    I agree to receive communications from Createx Construction
+                    Bureau.
+                  </label>
+                </div>
+                <button class="btn-solid btn btn-regular" type="submit">
+                  SEND Request
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Discuss End -->
+    </main>
+    <!-- Main Sections End -->
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="custom-container">
+        <div class="top-footer">
+          <div class="top-footer-left">
+            <div class="top-footer-left-visual">
+              <div class="logo">
+                <a href="./index.html">
+                  <img src="./images/logo1.png" alt="" />
+                </a>
+              </div>
+              <div class="social-media-icons">
+                <ul class="social-media-icons-list">
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="./icons/whatsapp.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="./icons/messenger.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="./icons/facebook.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="./icons/twitter.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="./icons/youtube.svg" alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="top-footer-left-txt">
+              <p>
+                Createx Construction Bureau has been successfully operating
+                in the USA construction market since 2000. We are proud to offer
+                you quality construction and exemplary service. Our mission is
+                to set the highest standards for construction sphere.
+              </p>
+            </div>
+          </div>
+          <div class="top-footer-right">
+            <div class="subscribe-form">
+              <form class="form-element" action="#">
+                <label for="subscribe-me">Let's stay in touch</label>
+                <input
+                  type="email"
+                  name=""
+                  id="subscribe-me"
+                  placeholder="Your email adress"
+                />
+                <button class="btn btn-solid btn-regular" type="submit">
+                  Subscribe
+                </button>
+                <small
+                  >*Subscribe to our newsletter to receive communications and
+                  early updates from Createx Construction Bureau.</small
+                >
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="middle-footer">
+          <div class="middle-footer-item">
+            <p class="middle-footer-item-title">Head Office</p>
+            <ul class="middle-footer-item-list">
+              <li>
+                <span>Adress:</span>
+                <address>8502 Preston Rd. Inglewood, New York</address>
+              </li>
+              <li>
+                <span>Call:</span>
+                <a href="tel:+(405) 555-0128">(405) 555-0128</a>
+              </li>
+              <li>
+                <span>Email:</span>
+                <a href="mailto:hello@createx.com">hello@createx.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="middle-footer-item middle-nav">
+            <div class="middle-footer-nav">
+              <p class="middle-footer-item-title">Who we are</p>
+              <ul class="middle-footer-item-list">
+                <li><a href="./about.html">About us</a></li>
+                <li><a href="./positions.html">Aviable Positions</a></li>
+                <li><a href="./contact.html">Contacts</a></li>
+              </ul>
+            </div>
+            <div class="middle-footer-nav">
+              <p class="middle-footer-item-title">Our Experience</p>
+              <ul class="middle-footer-item-list">
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./work.html">Work</a></li>
+                <li><a href="./blog.html">News</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-footer">
+          <p class="copyright">
+            &copy;All rights reserved. Made with
+            <img src="./icons/heart.svg" alt="Heart Icon" /> by Createx Studio
+          </p>
+          <div class="go-to-up">
+            <a href="#" data-target="html"
+              >GO TO TOP
+              <img src="./icons/up-btn.svg" alt="Go To Up" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- Boostrap JS -->
+    <script src="./plugins/boostrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CreateX | Construction Bureau</title>
+    <!-- Favicons -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./icons/favicon-16x16.png"
+    />
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="./plugins/boostrap/bootstrap.min.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <!-- Modal -->
+    <div class="index-modal">
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">
+                Our Youtube Video
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/yK5iFSP4efM"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal End -->
+    <!-- Header Start -->
+    <header class="header position-relative">
+      <div class="custom-container">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./images/logo.png" alt="CreateX - Construction Bureau" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Menu
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-dark"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./portfolio.html">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./blog.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contacts</a>
+                </li>
+              </ul>
+              <div class="right-header">
+                <div class="rh-call">
+                  <div class="rh-element-img">
+                    <img src="./icons/phone.svg" alt="Call Us" />
+                  </div>
+                  <div class="rh-element-txt">
+                    <p>Call us</p>
+                    <a href="tel:+(405)-555-0128">(405) 555-0128</a>
+                  </div>
+                </div>
+                <div class="rh-chat">
+                  <div class="rh-element-img">
+                    <img src="./icons/mail.svg" alt="Talk to us" />
+                  </div>
+                  <div class="rh-element-txt">
+                    <p>Talk to us</p>
+                    <a href="mailto:hello@createx.com">hello@createx.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Header End -->
+    <!-- Main Sections Start -->
+    <main class="main">
+      <!-- Fake Slider Start  -->
+      <section class="fake-slider">
+        <div class="boostrap-slider">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="true"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img
+                  src="./images/bg-image.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="./images/construction1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="./images/construction2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="./images/construction3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="custom-container">
+          <div class="fake-slider-heading">
+            <h1 class="fake-slider-title">CREATE<span>X</span> CONSTRUCTION</h1>
+            <p class="fake-slider-text">
+              Cras ultrices leo vitae non viverra. Fringilla nisi quisque
+              consequat, dignissim vitae proin ipsum sed. Pellentesque nec
+              turpis purus eget pellentesque integer ipsum elementum felis.
+            </p>
+            <a
+              class="btn btn-regular btn-alternative btn-margin"
+              href="./about.html"
+              >Learn More About US</a
+            >
+            <a class="btn btn-solid btn-regular" href="./contact.html"
+              >Submit Request</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- Fake Slider End -->
+      <!-- Video Start -->
+      <section class="video">
+        <div class="custom-container">
+          <div class="video-wrapper">
+            <h2 class="section-title">We are Createx Construction Bureau</h2>
+            <p class="section-description">
+              We are rightfully considered to be the best construction company
+              in the USA.
+            </p>
+            <div
+              class="media-container"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <div class="media-bg">
+                <img src="./images/video-bg.png" alt="" />
+                <div class="media-btn">
+                  <div class="play-btn">
+                    <img src="./icons/play.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Video End -->
+      <!-- Values Start -->
+      <section class="values">
+        <div class="custom-container">
+          <div class="values-wrapper">
+            <h2 class="section-title">Our core values</h2>
+            <p class="section-description">
+              Our mission is to set the highest standards for construction
+              sphere.
+            </p>
+            <div class="core-values">
+              <div class="core-values-items">
+                <div class="core-values-single">
+                  <div class="core-values-icon">
+                    <img src="./icons/like.svg" alt="Quality" />
+                  </div>
+                  <h3 class="core-values-title">Quality</h3>
+                  <p class="core-values-description">
+                    Culpa nostrud commodo ea consequat aliquip reprehenderit.
+                    Veniam velit nostrud aliquip sunt.
+                  </p>
+                </div>
+              </div>
+              <div class="core-values-items">
+                <div class="core-values-single">
+                  <div class="core-values-icon">
+                    <img src="./icons/hand.svg" alt="Quality" />
+                  </div>
+                  <h3 class="core-values-title">Safety</h3>
+                  <p class="core-values-description">
+                    Anim reprehenderit sint voluptate exercitation adipisicing
+                    laborum adipisicing. Minim empor est ea.
+                  </p>
+                </div>
+              </div>
+              <div class="core-values-items">
+                <div class="core-values-single">
+                  <div class="core-values-icon">
+                    <img src="./icons/slippers.svg" alt="Quality" />
+                  </div>
+                  <h3 class="core-values-title">Comfort</h3>
+                  <p class="core-values-description">
+                    Sit veniam aute dolore adipisicing nulla sit culpa. Minim
+                    mollit voluptate ullamco proident ea ad.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Valuend End -->
+      <!-- Ask Questions Start -->
+      <section class="ask-questions">
+        <div class="custom-container">
+          <div class="ask-questions-wrapper">
+            <h3 class="form-title">Want to know more? Ask us a question:</h3>
+            <form action="#" class="ask-questions">
+              <div class="name">
+                <label for="names-input">Name</label>
+                <input
+                  id="names-input"
+                  required
+                  type="text"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="phone-number">
+                <label for="phones-input">Phone</label>
+                <input
+                  id="phones-input"
+                  required
+                  type="tel"
+                  name=""
+                  id=""
+                  placeholder="Your Phone Number"
+                />
+              </div>
+              <div class="message-box">
+                <label for="message-box">Phone</label>
+                <input
+                  id="message-box"
+                  required
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Your Message"
+                />
+              </div>
+              <button class="btn-solid btn btn-small" type="submit">
+                SEND
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Ask Questions End -->
+      <!-- Our Services Start -->
+      <section class="our-services">
+        <div class="custom-container">
+          <div class="our-services-wrapper">
+            <h2 class="section-title">Our services</h2>
+            <p class="section-description">
+              Createx Construction Bureau is a construction giant with a full
+              range of construction services.
+            </p>
+            <div class="our-services-elements">
+              <div class="our-service-single-box">
+                <a class="text-decoration-none" href="./services.html">
+                  <div class="our-services-box">
+                    <div class="our-service-single">
+                      <div class="our-service-img service-1">
+                        <img src="./icons/ic-construction.svg" alt="" />
+                      </div>
+                      <h4 class="our-service-heading">Construction</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="our-service-single-box">
+                <a class="text-decoration-none" href="./services.html">
+                  <div class="our-services-box">
+                    <div class="our-service-single">
+                      <div class="our-service-img service-2">
+                        <img src="./icons/ic-plan.svg" alt="" />
+                      </div>
+                      <h4 class="our-service-heading">Project Development</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="our-service-single-box">
+                <a class="text-decoration-none" href="./services.html">
+                  <div class="our-services-box">
+                    <div class="our-service-single">
+                      <div class="our-service-img service-3">
+                        <img src="./icons/ic-pantone.svg" alt="" />
+                      </div>
+                      <h4 class="our-service-heading">Interior Design</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="our-service-single-box">
+                <a class="text-decoration-none" href="./services.html">
+                  <div class="our-services-box">
+                    <div class="our-service-single">
+                      <div class="our-service-img service-4">
+                        <img src="./icons/ic-painting.svg" alt="" />
+                      </div>
+                      <h4 class="our-service-heading">Repairs</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="learn-more-view">
+              <h3 class="learn-more-view-title">
+                Learn more about our services
+              </h3>
+              <a class="btn btn-solid btn-large" href="./services.html"
+                >View Services</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our Services End -->
+      <!-- Portfolio Start -->
+      <section class="portfolio">
+        <div class="custom-container">
+          <div class="portfolio-wrapper">
+            <h2 class="section-title portfolio-title">
+              Browse our selected projects and learn more about our work
+            </h2>
+            <div class="portfolio-box">
+              <div class="portfolio-box-item">
+                <div class="portfolio-single">
+                  <div class="portfolio-img">
+                    <img src="./images/building1.png" alt="" />
+                  </div>
+                  <div class="portfolio-content">
+                    <h4 class="portfolio-item-title">Red Finger Building</h4>
+                    <p class="portfolio-item-description">Business Centers</p>
+                  </div>
+                  <div class="portfolio-view-link">
+                    <a
+                      class="btn btn-outline btn-regular"
+                      href="./portfolio.html"
+                      >View Project</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-box-item">
+                <div class="portfolio-single">
+                  <div class="portfolio-img">
+                    <img src="./images/building2.png" alt="" />
+                  </div>
+                  <div class="portfolio-content">
+                    <h4 class="portfolio-item-title">Cubes Building</h4>
+                    <p class="portfolio-item-description">Business Centers</p>
+                  </div>
+                  <div class="portfolio-view-link">
+                    <a
+                      class="btn btn-outline btn-regular"
+                      href="./portfolio.html"
+                      >View Project</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-box-item">
+                <div class="portfolio-single">
+                  <div class="portfolio-img">
+                    <img src="./images/building3.png" alt="" />
+                  </div>
+                  <div class="portfolio-content">
+                    <h4 class="portfolio-item-title">The Pencil Building</h4>
+                    <p class="portfolio-item-description">Stores & Malls</p>
+                  </div>
+                  <div class="portfolio-view-link">
+                    <a
+                      class="btn btn-outline btn-regular"
+                      href="./portfolio.html"
+                      >View Project</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="learn-more-view">
+              <h3 class="learn-more-view-title">Explore all our works</h3>
+              <a class="btn btn-solid btn-large" href="./services.html"
+                >View portfolio</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio end -->
+      <!-- Partners Start -->
+      <section class="partners">
+        <div class="custom-container">
+          <div class="partners-wrapper">
+            <h2 class="section-title">Supported by 12+ partners</h2>
+            <div class="partners-box">
+              <div class="partners-box-item">
+                <div class="partners-box-img">
+                  <img src="./images/client-logo1.png" alt="" />
+                </div>
+              </div>
+              <div class="partners-box-item">
+                <div class="partners-box-img">
+                  <img src="./images/client-logo2.png" alt="" />
+                </div>
+              </div>
+              <div class="partners-box-item">
+                <div class="partners-box-img">
+                  <img src="./images/client-logo3.png" alt="" />
+                </div>
+              </div>
+              <div class="partners-box-item">
+                <div class="partners-box-img">
+                  <img src="./images/client-logo4.png" alt="" />
+                </div>
+              </div>
+              <div class="partners-box-item">
+                <div class="partners-box-img">
+                  <img src="./images/client-logo5.png" alt="" />
+                </div>
+              </div>
+              <div class="partners-box-item">
+                <div class="partners-box-img">
+                  <img src="./images/client-logo6.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="opinion-wrapper">
+            <div class="opinion-txt">
+              <h2 class="section-title">What our clients are saying</h2>
+              <div class="opinion-detail">
+                <div class="profile-img">
+                  <img src="./images/profile-image.png" alt="" />
+                </div>
+                <div class="profile-txt">
+                  <p>
+                    Ipsum aute sunt aliquip aute et occaecat. Anim minim do
+                    cillum eiusmod enim. Consectetur magna cillum consequat
+                    minim laboris cillum laboris voluptate minim proident
+                    exercitation ullamco.
+                  </p>
+                  <h4>Shawn Edwards</h4>
+                  <small>Position, Company name</small>
+                </div>
+              </div>
+            </div>
+            <div class="opinion-img">
+              <img src="./images/opinion.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Partners End -->
+      <!-- Facts Start -->
+      <section class="facts">
+        <div class="facts-bg-image">
+          <img src="./images/fact-bg.png" alt="" />
+        </div>
+        <div class="custom-container-facts">
+          <div class="fact-figures">
+            <h2 class="section-title">Some facts and figures</h2>
+            <div class="fact-figures-number">
+              <div class="fact-figures-item">
+                <div class="fact-figures-img">
+                  <img src="./images/circle-progress1.png" alt="" />
+                </div>
+                <p class="fact-name">Totally satisfied clients</p>
+              </div>
+              <div class="fact-figures-item">
+                <div class="fact-figures-img">
+                  <img src="./images/circle-progress2.png" alt="" />
+                </div>
+                <p class="fact-name">Years of experience</p>
+              </div>
+              <div class="fact-figures-item">
+                <div class="fact-figures-img">
+                  <img src="./images/circle-progress.png" alt="" />
+                </div>
+                <p class="fact-name">Working hours spent</p>
+              </div>
+              <div class="fact-figures-item">
+                <div class="fact-figures-img">
+                  <img src="./images/circle-progress3.png" alt="" />
+                </div>
+                <p class="fact-name">Succeeded projects</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Facts End -->
+      <!-- Recent News Start -->
+      <section class="recent-news">
+        <div class="custom-container">
+          <h2 class="section-title">Recent news</h2>
+          <div class="recent-news-container">
+            <div class="news-left">
+              <div class="news-left-box">
+                <div class="news-single-item">
+                  <div class="news-image">
+                    <img src="./images/news1.png" alt="" />
+                  </div>
+                  <div class="news-info">
+                    <a href="./news.html"
+                      ><h3 class="news-title">
+                        How to Build Climate Change-Resilient Infrastructure
+                      </h3></a
+                    >
+                    <small class="news-detail"
+                      >Industry News | June 24, 2022 |
+                      <img src="./icons/comments.svg" alt="" />4 comments</small
+                    >
+                    <p class="news-description">
+                      Ipsum aliquet nisi, hendrerit rhoncus quam tortor,
+                      maecenas faucibus. Tincidunt aliquet sit vel, venenatis
+                      nulla. Integer bibendum turpis convallis enim, nibh
+                      convallis...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="news-right">
+              <div class="news-right-box">
+                <div class="news-single-item">
+                  <div class="news-right-image">
+                    <img src="./images/news2.png" alt="" />
+                  </div>
+                  <div class="news-info right-info">
+                    <a href="./news.html"
+                      ><h3 class="news-title">
+                        How Construction Can Help Itself
+                      </h3></a
+                    >
+                    <small class="news-detail"
+                      >Industry News | June 24, 2022 |
+                      <img src="./icons/comments.svg" alt="" />0 comments</small
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="news-right-box">
+                <div class="news-single-item">
+                  <div class="news-right-image">
+                    <img src="./images/news3.png" alt="" />
+                  </div>
+                  <div class="news-info right-info">
+                    <a href="./news.html"
+                      ><h3 class="news-title">
+                        Types of Flooring Materials
+                      </h3></a
+                    >
+                    <small class="news-detail"
+                      >Industry News | June 24, 2022 |
+                      <img src="./icons/comments.svg" alt="" />0 comments</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="learn-more-view">
+            <h3 class="learn-more-view-title">Explore all our news posts</h3>
+            <a class="btn btn-solid btn-large" href="./services.html"
+              >View All news</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- Recent News End -->
+      <!-- Discuss Start -->
+      <section class="discuss">
+        <div class="custom-container">
+          <div class="form-container">
+            <div class="form-wrapper">
+              <h3 class="form-title">A quick way to discuss details</h3>
+              <form class="request-form" action="#">
+                <label for="name-input">Name*</label>
+                <input
+                  id="name-input"
+                  required
+                  type="text"
+                  placeholder="Your Name"
+                />
+                <label for="phone-input">Phone*</label>
+                <input
+                  id="phone-input"
+                  required
+                  type="tel"
+                  name=""
+                  id=""
+                  placeholder="Your Phone Number"
+                />
+                <label for="email-input">Email</label>
+                <input
+                  id="email-input"
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Your working email"
+                />
+                <label for="message-input">Message*</label>
+                <textarea
+                  id="message-input"
+                  placeholder="Your Message"
+                  required
+                  name=""
+                  id=""
+                ></textarea>
+                <div class="checkbox-rule">
+                  <label class="checkbox red">
+                    <input checked type="checkbox" />
+                    <span class="indicator"></span>
+                    I agree to receive communications from Createx Construction
+                    Bureau.
+                  </label>
+                </div>
+                <button class="btn-solid btn btn-regular" type="submit">
+                  SEND Request
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Discuss End -->
+    </main>
+    <!-- Main Sections End -->
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="custom-container">
+        <div class="top-footer">
+          <div class="top-footer-left">
+            <div class="top-footer-left-visual">
+              <div class="logo">
+                <a href="./index.html">
+                  <img src="./images/logo1.png" alt="" />
+                </a>
+              </div>
+              <div class="social-media-icons">
+                <ul class="social-media-icons-list">
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="./icons/whatsapp.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="./icons/messenger.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="./icons/facebook.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="./icons/twitter.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <img src="./icons/youtube.svg" alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="top-footer-left-txt">
+              <p>
+                Createx Construction Bureau has been successfully operating
+                in the USA construction market since 2000. We are proud to offer
+                you quality construction and exemplary service. Our mission is
+                to set the highest standards for construction sphere.
+              </p>
+            </div>
+          </div>
+          <div class="top-footer-right">
+            <div class="subscribe-form">
+              <form class="form-element" action="#">
+                <label for="subscribe-me">Let's stay in touch</label>
+                <input
+                  type="email"
+                  name=""
+                  id="subscribe-me"
+                  placeholder="Your email adress"
+                />
+                <button class="btn btn-solid btn-regular" type="submit">
+                  Subscribe
+                </button>
+                <small
+                  >*Subscribe to our newsletter to receive communications and
+                  early updates from Createx Construction Bureau.</small
+                >
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="middle-footer">
+          <div class="middle-footer-item">
+            <p class="middle-footer-item-title">Head Office</p>
+            <ul class="middle-footer-item-list">
+              <li>
+                <span>Adress:</span>
+                <address>8502 Preston Rd. Inglewood, New York</address>
+              </li>
+              <li>
+                <span>Call:</span>
+                <a href="tel:+(405) 555-0128">(405) 555-0128</a>
+              </li>
+              <li>
+                <span>Email:</span>
+                <a href="mailto:hello@createx.com">hello@createx.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="middle-footer-item middle-nav">
+            <div class="middle-footer-nav">
+              <p class="middle-footer-item-title">Who we are</p>
+              <ul class="middle-footer-item-list">
+                <li><a href="./about.html">About us</a></li>
+                <li><a href="./positions.html">Aviable Positions</a></li>
+                <li><a href="./contact.html">Contacts</a></li>
+              </ul>
+            </div>
+            <div class="middle-footer-nav">
+              <p class="middle-footer-item-title">Our Experience</p>
+              <ul class="middle-footer-item-list">
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./work.html">Work</a></li>
+                <li><a href="./blog.html">News</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-footer">
+          <p class="copyright">
+            &copy;All rights reserved. Made with
+            <img src="./icons/heart.svg" alt="Heart Icon" /> by Createx Studio
+          </p>
+          <div class="go-to-up">
+            <a href="#" data-target="html"
+              >GO TO TOP
+              <img src="./icons/up-btn.svg" alt="Go To Up" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- Boostrap JS -->
+    <script src="./plugins/boostrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
